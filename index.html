@@ -16,21 +16,63 @@
          
         </div>
         <div class="header-list">
-          <ul>
-            <li>駅から探す </li>
-            <li>大学から探す</li>
-            <li></li>
-          </ul>
         </div>
       </div>
       <div class="main-contents">
         <h1>Let's DANCE</h1>
-        <h2>より快適なダンスライフを</h2>
       </div>
       <div class="contents">
         <h3 class="contents-title"></h3>
-        
-        
+        <input name="data[Web][searchdate]" id="searchdate" class="datepicker form-control date-picker required" readonly="readonly" type="text" value="2021/11/05">
+        <select name="data[Web][start_time]" id="start_time" class="form-control sttime">
+          <option value="">開始時間</option>
+          <option value="06:00">06:00 (05:30)</option>
+          <option value="07:00">07:00 (06:30)</option>
+          <option value="08:00">08:00 (07:30)</option>
+          <option value="09:00">09:00 (08:30)</option>
+          <option value="10:00">10:00 (09:30)</option>
+          <option value="11:00">11:00 (10:30)</option>
+          <option value="12:00">12:00 (11:30)</option>
+          <option value="13:00">13:00 (12:30)</option>
+          <option value="14:00">14:00 (13:30)</option>
+          <option value="15:00">15:00 (14:30)</option>
+          <option value="16:00">16:00 (15:30)</option>
+          <option value="17:00">17:00 (16:30)</option>
+          <option value="18:00">18:00 (17:30)</option>
+          <option value="19:00">19:00 (18:30)</option>
+          <option value="20:00">20:00 (19:30)</option>
+          <option value="21:00">21:00 (20:30)</option>
+          <option value="22:00">22:00 (21:30)</option>
+          <option value="23:00">23:00 (22:30)</option>
+          <option value="24:00" style="font-size: 16px;">ﾅｲﾄﾊﾟｯｸ(6h)</option>
+          </select>
+          <select name="data[Web][end_time]" id="end_time" class="form-control edtime">
+            <option value="">終了時間</option>
+            <option value="07:00">07:00 (06:30)</option>
+            <option value="08:00">08:00 (07:30)</option>
+            <option value="09:00">09:00 (08:30)</option>
+            <option value="10:00">10:00 (09:30)</option>
+            <option value="11:00">11:00 (10:30)</option>
+            <option value="12:00">12:00 (11:30)</option>
+            <option value="13:00">13:00 (12:30)</option>
+            <option value="14:00">14:00 (13:30)</option>
+            <option value="15:00">15:00 (14:30)</option>
+            <option value="16:00">16:00 (15:30)</option>
+            <option value="17:00">17:00 (16:30)</option>
+            <option value="18:00">18:00 (17:30)</option>
+            <option value="19:00">19:00 (18:30)</option>
+            <option value="20:00">20:00 (19:30)</option>
+            <option value="21:00">21:00 (20:30)</option>
+            <option value="22:00">22:00 (21:30)</option>
+            <option value="23:00">23:00 (22:30)</option>
+            <option value="24:00">翌0:00 (23:30)</option>
+            <option value="30:00" style="font-size: 16px;">ﾅｲﾄﾊﾟｯｸ(6h)</option>
+            </select>
+            <div class="btn"><p class="detail_btn opclose" onclick="toggleOption(this)">
+              ::before
+              "詳細条件を追加する"
+            </p>
+            </div>
       </div>
       <div class="form">
         <div class="form-title">
